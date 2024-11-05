@@ -747,7 +747,6 @@ width: calc((100% - 24px)/2);
     display: flex;
     flex-wrap: wrap;
     gap:72px;
-    /* flex-direction: row; */
 padding: 0 0;
 text-align: center;
 justify-content: center;
@@ -887,14 +886,13 @@ text-align: left;
     .container-footer {
         text-align: left;
         column-gap: 24px;
+        width: 584px;
+        justify-content: none;
     }
     .footer-form {
         display:flex;
         gap: 24px;
     }
-        .footer-container-subscribe {
-            
-        }
 .footer-input {
     width: 264px;
 }
@@ -905,6 +903,7 @@ text-align: left;
         display: flex;
         flex-wrap: nowrap;
         gap: 80px;
+        width: auto;
     }
 
 }
